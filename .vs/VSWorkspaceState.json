@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SchoolManagement.Application",
+    "\\SchoolManagement.Application\\Interfaces",
+    "\\SchoolManagement.Application\\Interfaces\\Student",
+    "\\SchoolManagement.Infrastructure",
+    "\\SchoolManagement.Infrastructure\\Context",
+    "\\SchoolManagement.Infrastructure\\Repositories",
+    "\\SchoolManagement.Infrastructure\\Repositories\\Student",
+    "\\SchoolManagement.Infrastructure\\Services",
+    "\\SchoolManagement.Infrastructure\\Services\\Student"
+  ],
+  "SelectedNode": "\\SchoolManagement.sln",
+  "PreviewInSolutionExplorer": false
+}

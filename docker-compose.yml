@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  schoolmanagement.api:
+    image: schoolmanagement.api:latest
+    build:
+      context: .
+      dockerfile: SchoolManagement.API/Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - sqlserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=SchoolManagementDb;User=sa;Password=YourStrong!Passw0rd;
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - sqlserverdata:/var/opt/mssql
+
+volumes:
+  sqlserverdata:

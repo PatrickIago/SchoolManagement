@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\SchoolManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C96A8A8-9287-4119-8FBC-203A3480F08A}|SchoolManagement.API\\SchoolManagement.API.csproj|d:\\work\\schoolmanagement\\schoolmanagement.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C96A8A8-9287-4119-8FBC-203A3480F08A}|SchoolManagement.API\\SchoolManagement.API.csproj|solutionrelative:schoolmanagement.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319AB056-6BC8-4472-92DF-27CF1D12F83E}|SchoolManagement.Application\\SchoolManagement.Application.csproj|d:\\work\\schoolmanagement\\schoolmanagement.application\\validators\\studentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319AB056-6BC8-4472-92DF-27CF1D12F83E}|SchoolManagement.Application\\SchoolManagement.Application.csproj|solutionrelative:schoolmanagement.application\\validators\\studentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E4C39B-7E8C-4A12-948C-890F6E3A50D3}|SchoolManagement.Infrastructure\\SchoolManagement.Infrastructure.csproj|d:\\work\\schoolmanagement\\schoolmanagement.infrastructure\\sqlinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E4C39B-7E8C-4A12-948C-890F6E3A50D3}|SchoolManagement.Infrastructure\\SchoolManagement.Infrastructure.csproj|solutionrelative:schoolmanagement.infrastructure\\sqlinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E4C39B-7E8C-4A12-948C-890F6E3A50D3}|SchoolManagement.Infrastructure\\SchoolManagement.Infrastructure.csproj|d:\\work\\schoolmanagement\\schoolmanagement.infrastructure\\services\\student\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E4C39B-7E8C-4A12-948C-890F6E3A50D3}|SchoolManagement.Infrastructure\\SchoolManagement.Infrastructure.csproj|solutionrelative:schoolmanagement.infrastructure\\services\\student\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentValidator.cs",
+              "DocumentMoniker": "D:\\Work\\SchoolManagement\\SchoolManagement.Application\\Validators\\StudentValidator.cs",
+              "RelativeDocumentMoniker": "SchoolManagement.Application\\Validators\\StudentValidator.cs",
+              "ToolTip": "D:\\Work\\SchoolManagement\\SchoolManagement.Application\\Validators\\StudentValidator.cs",
+              "RelativeToolTip": "SchoolManagement.Application\\Validators\\StudentValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T01:49:24.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Work\\SchoolManagement\\SchoolManagement.API\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolManagement.API\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Work\\SchoolManagement\\SchoolManagement.API\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolManagement.API\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwBoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T01:25:33.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SqlInitializer.cs",
+              "DocumentMoniker": "D:\\Work\\SchoolManagement\\SchoolManagement.Infrastructure\\SqlInitializer.cs",
+              "RelativeDocumentMoniker": "SchoolManagement.Infrastructure\\SqlInitializer.cs",
+              "ToolTip": "D:\\Work\\SchoolManagement\\SchoolManagement.Infrastructure\\SqlInitializer.cs",
+              "RelativeToolTip": "SchoolManagement.Infrastructure\\SqlInitializer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T01:24:41.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\Work\\SchoolManagement\\SchoolManagement.Infrastructure\\Services\\Student\\StudentService.cs",
+              "RelativeDocumentMoniker": "SchoolManagement.Infrastructure\\Services\\Student\\StudentService.cs",
+              "ToolTip": "D:\\Work\\SchoolManagement\\SchoolManagement.Infrastructure\\Services\\Student\\StudentService.cs",
+              "RelativeToolTip": "SchoolManagement.Infrastructure\\Services\\Student\\StudentService.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T01:24:20.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
