@@ -20,29 +20,34 @@ AutoMapper: Mapeamento entre entidades e DTOs.
 
 Dependency Injection: Injeção de dependências nativa do ASP.NET Core.
 
-FluentValidation: Validação de dados das entidades.
+FluentValidation: Validação de dados das requests.
 
 JWT (JSON Web Tokens): Para autenticação e autorização segura de usuários.
 
 ASP.NET Core Identity: Sistema de gerenciamento de identidade e autenticação.
 
-# Funcionalidades
+Docker: Para empacotar a aplicação e suas dependências em contêineres.
 
+# Funcionalidades
 Gerenciamento de Estudantes: Cadastro, visualização, atualização e exclusão de estudantes.
 
 Documentação da API: Documentação interativa com Swagger.
 
 Autenticação e Autorização: Protege endpoints utilizando JWT e ASP.NET Core Identity para garantir segurança e controle de acesso.
 
-Como Rodar o Projeto
+Containerização: Facilita a configuração e execução do projeto usando Docker.
 
-# Pré-requisitos
+# Como Rodar o Projeto
 
-.NET 8 SDK: Para rodar a API.
+Pré-requisitos
 
-SQL Server: Para o banco de dados.
+Docker: Para construir e executar o contêiner da aplicação.
 
-# Configuração do Ambiente
+.NET 8 SDK: Opcional, apenas se você quiser compilar o projeto localmente fora do Docker.
+
+SQL Server: Para o banco de dados, pode ser executado em um contêiner Docker também.
+
+Configuração do Ambiente com Docker
 
 Clone o Repositório:
 
@@ -50,29 +55,23 @@ Abra o terminal e execute o seguinte comando para clonar o repositório para o s
 
 git clone https://github.com/PatrickIago/SchoolManagement.git
 
-Configuração do Banco de Dados:
+# Configuração do Docker:
 
-Certifique-se de ter o SQL Server instalado e configurado.
+Certifique-se de ter o Docker instalado e funcionando em sua máquina.
 
-Atualize a string de conexão no arquivo appsettings.json para apontar para seu servidor SQL Server.
+Navegue até o diretório do projeto onde estão os arquivos Dockerfile e docker-compose.yml.
 
-# Executar as Migrações:
+Construir e Executar o Contêiner:
 
-Abra o terminal e navegue até o diretório do projeto.
+No diretório do projeto, execute o comando para construir e iniciar os contêineres:
 
-Execute as migrações para configurar o banco de dados:
+docker-compose up --build
 
-dotnet ef database update
+Isso construirá as imagens necessárias e iniciará os contêineres, incluindo a API e o banco de dados (se configurado no docker-compose.yml).
 
-# Executar o Projeto:
+# Acessar a Documentação da API:
 
-Inicie a aplicação:
-
-dotnet run
-
-Acessar a Documentação da API:
-
-Abra um navegador e vá para http://localhost:5000/swagger para acessar a documentação interativa da API gerada pelo Swagger.
+Após o contêiner estar em execução, abra um navegador e vá para http://localhost:5000/swagger para acessar a documentação interativa da API gerada pelo Swagger.
 
 # Configuração de Autenticação:
 
@@ -83,4 +82,3 @@ Utilize o token JWT retornado para autenticar suas requisições à API.
 # Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, fazer pull requests ou sugerir melhorias.
-
